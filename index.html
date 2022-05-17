@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <title>paxful</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="fontIcon/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -275,31 +278,213 @@
 
                     <div class="tab-content actionBoard_tabContent" id="pills-tabContent">
                         <div class="tab-pane actionBoard_tabPane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                            <div class="container">
+                            <div class="container actionBoard_Wrapper px-0">
 
-                                <ul class="actionBoard_cardsList">
+                                <ul class="actionBoard_cardsList row">
+                                    
+                                    <li class="actionBoard_cardItem col-md-6 col-lg-4">
+                                        <a href="#" class="actionBoard_card">
 
-                                    <li class="actionBoard_cardItem">
-                                        <div class="actionBoard_card">
                                             <div class="actionBoard_cardIconWrapper">
-                                                <svg id="bank-transfers" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="m9 19h6v19h-6z" fill="var(--icons-bg-fill, #ffffff)"/><path d="m21 19h6v19h-6z" fill="var(--icons-bg-fill, #ffffff)"/><path d="m33 19h6v19h-6z" fill="var(--icons-bg-fill, #ffffff)"/><path d="m9 19h6v19h-6z" fill="var(--icons-primary, #0097DB)" fill-opacity=".2"/><path clip-rule="evenodd" d="m8 18h8v21h-8zm2 2v17h4v-17z" fill="var(--icons-primary, #0097DB)" fill-rule="evenodd"/><path d="m33 19h6v19h-6z" fill="var(--icons-primary, #0097DB)" fill-opacity=".2"/><path clip-rule="evenodd" d="m32 18h8v21h-8zm2 2v17h4v-17z" fill="var(--icons-primary, #0097DB)" fill-rule="evenodd"/><path d="m21 19h6v19h-6z" fill="var(--icons-primary, #0097DB)" fill-opacity=".2"/><path clip-rule="evenodd" d="m20 18h8v21h-8zm2 2v17h4v-17z" fill="var(--icons-primary, #0097DB)" fill-rule="evenodd"/><path clip-rule="evenodd" d="m8 37c-1.65685 0-3 1.3431-3 3v1c-1.65685 0-3 1.3431-3 3v2h2v-2c0-.5523.44772-1 1-1h38c.5523 0 1 .4477 1 1v2h2v-2c0-1.6569-1.3431-3-3-3v-1c0-1.6569-1.3431-3-3-3zm33 4v-1c0-.5523-.4477-1-1-1h-32c-.55228 0-1 .4477-1 1v1z" fill="var(--icons-secondary, #333333)" fill-rule="evenodd"/><path d="m8 19h8v3h-8z" fill="var(--icons-secondary, #333333)" opacity=".15"/><path d="m20 19h8v3h-8z" fill="var(--icons-secondary, #333333)" opacity=".15"/><path d="m32 19h8v3h-8z" fill="var(--icons-secondary, #333333)" opacity=".15"/><path clip-rule="evenodd" d="m22.2355 3.04681c1.0519-.76505 2.4771-.76505 3.529 0l18.3367 13.33579c1.5665 1.1392.7606 3.6174-1.1764 3.6174h-37.84961c-1.93696 0-2.74284-2.4782-1.17635-3.6174zm2.3527 1.61748c-.3507-.25502-.8257-.25502-1.1764 0l-18.33661 13.33571h37.84961z" fill="var(--icons-secondary, #333333)" fill-rule="evenodd"/></svg>
-                                                
+                                                <span class="icon-bank-transfers actionBoard_cardIcon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span></span>                                                
+                                                <strong class="actionBoard_cardTitle">Bank Transfers</strong>
                                             </div>
-                                        </div>    
-                                    </li>
 
+                                            <p class="actionBoard_cardSubTitle">  
+                                                Receive payment for your Bitcoin directly into your bank account anywhere in the world.
+                                            </p>
+
+                                        </a>    
+                                    </li> 
+                                    
+                                    <li class="actionBoard_cardItem col-md-6 col-lg-4">
+                                        <a href="#" class="actionBoard_card">
+
+                                            <div class="actionBoard_cardIconWrapper">
+                                                <span class="icon-cash-deposits actionBoard_cardIcon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span></span>                
+                                                <strong class="actionBoard_cardTitle">Online Wallets</strong>
+                                            </div>
+
+                                            <p class="actionBoard_cardSubTitle">  
+                                                Receive payment for your Bitcoin directly into your bank account anywhere in the world.
+                                            </p>
+
+                                        </a>    
+                                    </li> 
+                                    
+                                    <li class="actionBoard_cardItem col-md-6 col-lg-4">
+                                        <a href="#" class="actionBoard_card">
+
+                                            <div class="actionBoard_cardIconWrapper">
+                                                <span class="icon-gift-cards  actionBoard_cardIcon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span></span>
+                                                <strong class="actionBoard_cardTitle">Bank Transfers</strong>
+                                            </div>
+
+                                            <p class="actionBoard_cardSubTitle">  
+                                                Receive payment for your Bitcoin directly into your bank account anywhere in the world.
+                                            </p>
+
+                                        </a>    
+                                    </li> 
+                                    
+                                    <li class="actionBoard_cardItem col-md-6 col-lg-4">
+                                        <a href="#" class="actionBoard_card">
+
+                                            <div class="actionBoard_cardIconWrapper">
+                                                <span class="icon-online-transfers  actionBoard_cardIcon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span></span>                                                
+                                                <strong class="actionBoard_cardTitle">Debit/Credit Cards</strong>
+                                            </div>
+
+                                            <p class="actionBoard_cardSubTitle">  
+                                                Receive payment for your Bitcoin directly into your bank account anywhere in the world.
+                                            </p>
+
+                                        </a>    
+                                    </li> 
+                                    
+                                    <li class="actionBoard_cardItem col-md-6 col-lg-4">
+                                        <a href="#" class="actionBoard_card">
+
+                                            <div class="actionBoard_cardIconWrapper">
+                                                <span class="icon-cash-deposits actionBoard_cardIcon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span></span>
+                                                <strong class="actionBoard_cardTitle">Gift Cards</strong>
+                                            </div>
+
+                                            <p class="actionBoard_cardSubTitle">  
+                                                Receive payment for your Bitcoin directly into your bank account anywhere in the world.
+                                            </p>
+
+                                        </a>    
+                                    </li> 
+                                    
+                                    <li class="actionBoard_cardItem col-md-6 col-lg-4">
+                                        <a href="#" class="actionBoard_card">
+
+                                            <div class="actionBoard_cardIconWrapper">
+                                                <span class="icon-digital-currencies  actionBoard_cardIcon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span></span>
+                                                <strong class="actionBoard_cardTitle">Digital Currencies</strong>
+                                            </div>
+
+                                            <p class="actionBoard_cardSubTitle">  
+                                                Receive payment for your Bitcoin directly into your bank account anywhere in the world.
+                                            </p>
+
+                                        </a>    
+                                    </li> 
 
                                 </ul>
-
+                                
                             </div>     
                         </div>
                         <div class="tab-pane actionBoard_tabPane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                            <div class="container">
+                            <div class="container actionBoard_Wrapper px-0">
+                                
+                                <ul class="actionBoard_cardsList row">
+                                    
+                                    <li class="actionBoard_cardItem col-md-6 col-lg-4">
+                                        <a href="#" class="actionBoard_card">
+            
+                                            <div class="actionBoard_cardIconWrapper">
+                                                <span class="icon-cash-deposits actionBoard_cardIcon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span></span>
+                                                <strong class="actionBoard_cardTitle">Bank Transfers</strong>
+                                            </div>
+            
+                                            <p class="actionBoard_cardSubTitle">  
+                                                Receive payment for your Bitcoin directly into your bank account anywhere in the world.
+                                            </p>
+            
+                                        </a>    
+                                    </li> 
+                                    
+                                    <li class="actionBoard_cardItem col-md-6 col-lg-4">
+                                        <a href="#" class="actionBoard_card">
 
-                                <ul class="actionBoard_cardsList">
-                                    <li class="actionBoard_cardItem">
-                                        hi baby
-                                    </li>
+                                            <div class="actionBoard_cardIconWrapper">
+                                                <span class="icon-cash-deposits actionBoard_cardIcon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span></span>                
+                                                <strong class="actionBoard_cardTitle">Bank Transfers</strong>
+                                            </div>
+
+                                            <p class="actionBoard_cardSubTitle">  
+                                                Receive payment for your Bitcoin directly into your bank account anywhere in the world.
+                                            </p>
+
+                                        </a>    
+                                    </li> 
+                                    
+                                    <li class="actionBoard_cardItem col-md-6 col-lg-4">
+                                        <a href="#" class="actionBoard_card">
+                                            
+                                            <div class="actionBoard_cardIconWrapper">
+                                                <span class="icon-online-transfers  actionBoard_cardIcon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span></span>                                                
+                                                <strong class="actionBoard_cardTitle">Bank Transfers</strong>
+                                            </div>
+
+                                            <p class="actionBoard_cardSubTitle">  
+                                                Receive payment for your Bitcoin directly into your bank account anywhere in the world.
+                                            </p>
+
+                                        </a>    
+                                    </li> 
+                                    <li class="actionBoard_cardItem col-md-6 col-lg-4">
+                                        <a href="#" class="actionBoard_card">
+
+                                            <div class="actionBoard_cardIconWrapper">
+                                                <span class="icon-gift-cards  actionBoard_cardIcon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span></span>
+                                                <strong class="actionBoard_cardTitle">Bank Transfers</strong>
+                                            </div>
+
+                                            <p class="actionBoard_cardSubTitle">  
+                                                Receive payment for your Bitcoin directly into your bank account anywhere in the world.
+                                            </p>
+                                            
+                                        </a>    
+                                    </li> 
+                                    <li class="actionBoard_cardItem col-md-6 col-lg-4">
+                                        <a href="#" class="actionBoard_card">
+
+                                            <div class="actionBoard_cardIconWrapper">
+                                                <span class="icon-bank-transfers actionBoard_cardIcon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span></span>                                                
+                                                <strong class="actionBoard_cardTitle">Bank Transfers</strong>
+                                            </div>
+
+                                            <p class="actionBoard_cardSubTitle">  
+                                                Receive payment for your Bitcoin directly into your bank account anywhere in the world.
+                                            </p>
+
+                                        </a>    
+                                    </li> 
+                                    
+                                    <li class="actionBoard_cardItem col-md-6 col-lg-4">
+                                        <a href="#" class="actionBoard_card">
+
+                                            <div class="actionBoard_cardIconWrapper">
+                                                <span class="icon-online-transfers  actionBoard_cardIcon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span></span>                                                
+                                                <strong class="actionBoard_cardTitle">Bank Transfers</strong>
+                                            </div>
+
+                                            <p class="actionBoard_cardSubTitle">  
+                                                Receive payment for your Bitcoin directly into your bank account anywhere in the world.
+                                            </p>
+
+                                        </a>    
+                                    </li> 
+                                    
+                                    
+                                    <li class="actionBoard_cardItem col-md-6 col-lg-4">
+                                        <a href="#" class="actionBoard_card">
+
+                                            <div class="actionBoard_cardIconWrapper">
+                                                <span class="icon-digital-currencies  actionBoard_cardIcon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span></span>
+                                                <strong class="actionBoard_cardTitle">Bank Transfers</strong>
+                                            </div>
+
+                                            <p class="actionBoard_cardSubTitle">  
+                                                Receive payment for your Bitcoin directly into your bank account anywhere in the world.
+                                            </p>
+
+                                        </a>    
+                                    </li> 
+
                                 </ul>
 
                             </div>
@@ -307,9 +492,112 @@
                     </div>
                     
                 </section>
+
+                <button class="actionBoard_offersBtn">view all offers</button>
             </article>
         </div>
     </section>
+    
+    <article class="mb-5">
+        <h2 class="h1 mt-5 mb-2 col-md-6 text-center mx-auto">Paxful in the media</h2>
+        <p class="small-text videoPlayer_subtitle mb-4 col-md-8 text-center mx-auto">Paxful is very popular in the cryptocurrency space and has had extensive coverage in many famous magazines. One of our missions is to build 100 schools in Africa. Check out the video below to learn more about our <a href="https://builtwithbitcoin.org/" target="_blank" noreferrer="" noopener="">#builtwithbitcoin</a> initiative.</p>
+        <div class="video-placeholder-wrapper mx-auto">
+            <div class="iframeLoader">
+                <iframe id="popup-youtube-player" src="https://www.youtube.com/embed/KUqtlA0Joh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}div{background: url(https://img.youtube.com/vi/KUqtlA0Joh0/hqdefault.jpg) no-repeat center center;background-size:cover;height:100%}a:hover span {background-color: #0097DB}span{position:absolute;width:48px;height:48px;border-radius:50%;background:#00A5EF url(/assets/icons/16/play.svg?v=1652445362) no-repeat 17px 50%;top:calc(50% - 24px);left:calc(50% - 24px);}</style><a href='https://www.youtube.com/embed/KUqtlA0Joh0?autoplay=1&amp;mute=1&amp;enablejsapi=1' ><div></div><span></span></a>"></iframe>
+            </div>
+        </div>
+    </article>
+
+
+    <!-- Swiper -->
+<div class="container swiperContainer">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+      <div class="swiper-slide">
+          <img class="swiper-slideImg" src="assets/decrypt.png" alt="">
+      </div>
+      <div class="swiper-slide">
+          <img class="swiper-slideImg" src="assets/coindesk.webp" alt="">
+      </div>
+      <div class="swiper-slide">
+          <img class="swiper-slideImg" src="assets/download.svg" alt="">
+      </div>
+      <div class="swiper-slide">
+          <img class="swiper-slideImg" src="assets/badcredit.webp" alt="">
+      </div>
+      <div class="swiper-slide">
+          <img class="swiper-slideImg" src="assets/download1.svg" alt="">
+      </div>
+      <div class="swiper-slide">
+          <img class="swiper-slideImg" src="assets/forbes.png" alt="">
+      </div>
+      <div class="swiper-slide">
+          <img class="swiper-slideImg" src="assets/coingeek.webp" alt="">
+      </div>
+      <div class="swiper-slide">
+          <img class="swiper-slideImg" src="assets/inside-bitcoins.png" alt="">
+      </div>
+      <div class="swiper-slide">
+          <img class="swiper-slideImg" src="assets/nasdaq.png" alt="">
+      </div>
+      <div class="swiper-slide">
+          <img class="swiper-slideImg" src="assets/irishtechnews.webp" alt="">
+      </div>
+      <div class="swiper-slide">
+          <img class="swiper-slideImg" src="assets/yahoo-finance.png" alt="">
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+
+</div>
+
+<article class="container" style="max-width: 1000px; margin: 6rem auto;">
+    <div class="col-md-8 mx-auto mt-5">
+        <h2 class="h1 mt-5 mb-2 text-center mx-auto">Become a Bitcoin vendor on Paxful</h2>
+        <p class="small-text mb-4 mb-md-5 text-center mx-0">Become a vendor on Paxful and empower millions around the world with financial freedom. Offer multiple payment methods that buyers like, eliminate middlemen, and we will help you with all the resources and guidance needed to succeed.</p>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-4 px-3">
+            <div class="statesCard">
+                <header class="statesCard_IconWrapper">
+                    <img src="assets/user-badge.svg" alt="">
+                </header>
+                <div class="statesCard_content">
+                    <h3 class="statesCard_title">12,000</h3>
+                    <span class="statesCard_subTitle">Trusted offers</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 px-3">
+            <div class="statesCard">
+                <header class="statesCard_IconWrapper">
+                    <img src="assets/user-many.svg" alt="">
+                </header>
+                <div class="statesCard_content">
+                    <h3 class="statesCard_title">12,000</h3>
+                    <span class="statesCard_subTitle">Trusted offers</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 px-3">
+            <div class="statesCard">
+                <header class="statesCard_IconWrapper">
+                    <img src="assets/thumb.svg" alt="">
+                </header>
+                <div class="statesCard_content">
+                    <h3 class="statesCard_title">6,000,000</h3>
+                    <span class="statesCard_subTitle">Trusted offers</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="actionBoard_offersBtn">Become a vendor</button>
+
+</article>
+
+
 
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -319,6 +607,26 @@
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
     <script src="semantic/dist/semantic.min.js"></script>
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 5,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
     <!--app .js-->
     <script src="app.js"></script> 
 </body>

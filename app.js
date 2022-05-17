@@ -27,4 +27,3 @@ let badgeGroupElement = document.querySelector('.paymentMethodsBadgesGroup');
 document.querySelector('.spendAmount_spendValueInput').addEventListener('keydown', function () {
     
 })
-
