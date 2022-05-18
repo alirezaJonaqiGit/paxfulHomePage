@@ -23,7 +23,7 @@
             <div class="header_titleContainer">
                 <h1 class="header_title ">
 
-                    <span class="d-block header_togglerTitle">Earn</span>
+                    <span class="d-block header_togglerTitle">Recive</span>
                     <span class="d-block header_staticTitle">
                         Crypto with Paxful
                     </span>
@@ -127,6 +127,7 @@
                     </div>
 
 
+
                     <div class="paymentMethodWrapper">
                         
                         <label style="font-size: .9rem; color: #111; font-weight: normal;" class="form_offerTypeTitle d-block mt-1">Get paid via</label>
@@ -138,33 +139,80 @@
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                           <div class="modal-dialog">
+
                             <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <header class="modal_header">
+                                <div class="d-flex align-items-center flex-row-reverse flex-xl-row py-3 pr-3 px-xs-4 py-xs-4 qVROB">
+                                    <div class="searchInputWrapper d-flex align-items-center justify-content-between form-control x p-2 px-3">
+                                        <span class="mx-2 d-flex align-items-center">
+                                            <svg width="16"
+                                                height="16" viewBox="0 0 16 16" fill="currentColor" class="ml-2">
+                                                <g clip-path="url(#search_svg__clip0)">
+                                                    <path fill-rule="evenodd" d="M12.6 11.2a7 7 0 10-1.4 1.4.999.999 0 00.093.107l3 3a1 1 0 001.414-1.414l-3-3a.999.999 0 00-.107-.093zM12 7A5 5 0 112 7a5 5 0 0110 0z" clip-rule="evenodd"></path>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="search_svg__clip0">
+                                                        <path d="M0 0h16v16H0V0z"></path>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
+                                        <input id="searchInput" placeholder="Search" data-cy="searchFieldPmModWindow" type="text" class="min-width-0 border-transparent py-0 qa-paymentMethodPickerModalSearch px-2 form-control-plaintext" value="">
+                                    </div>
+                                    <div class="FuZOG">
+                                        <button  data-bs-dismiss="modal" type="button" data-cy="closeBtnPmModWindow" class="modalCloseBtn d-flex cursor-pointer rounded-circle justify-content-center align-items-center reflect-element Ifz6G btn btn-transparent btn-lg">
+                                            <div class="Nv10t">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" class="d-none d-xl-block text-gray-600">
+                                                    <path fill-rule="evenodd" d="M12.293 2.293a1 1 0 111.414 1.414L9.414 8l4.293 4.293a1 1 0 01-1.414 1.414L8 9.414l-4.293 4.293a1 1 0 01-1.414-1.414L6.586 8 2.293 3.707a1 1 0 011.414-1.414L8 6.586l4.293-4.293z" clip-rule="evenodd"></path>
+                                                </svg>
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" class="reflect-element d-block d-xl-none">
+                                                    <path fill-rule="evenodd" d="M11.706 13.292L6.414 7.999l5.292-5.293a1 1 0 00-1.414-1.414l-6 6a.996.996 0 00-.277.53L4 7.94v.118c.014.236.11.468.291.648l6 6a1 1 0 101.414-1.414z" clip-rule="evenodd"></path>
+                                                </svg>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <ul class="nav nav-pills paymentMethods_navPills" id="pills-tab" role="tablist">
+                                    <li class="nav-item paymentMethods_navItem">
+                                      <a class="nav-link paymentMethods_navLink active" id="pills-home-tab" data-toggle="pill" href="#helloWorld" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+                                    </li>
+                                    <li class="nav-item paymentMethods_navItem">
+                                      <a class="nav-link paymentMethods_navLink" id="pills-profile-tab" data-toggle="pill" href="#helloworld2" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+                                    </li>
+                                    <li class="nav-item paymentMethods_navItem">
+                                      <a class="nav-link paymentMethods_navLink" id="pills-contact-tab" data-toggle="pill" href="#helloworld3" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                                    </li>
+                                </ul>
+
+                                
+
+                                <!--ame modal-->
+                                
+                            </header>
+                              <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                             <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatibus, explicabo dolores adipisci quia unde totam nostrum omnis distinctio sunt dolorum, debitis et vel. Dolores rem, id, ullam sapiente consequatur veritatis ut dolorem praesentium et recusandae ipsam, architecto non. Esse labore, quisquam ullam necessitatibus iure ipsa ipsam quas aliquam quos excepturi tempore consectetur corrupti, dolorem dolores tenetur consequatur eligendi suscipit ipsum perspiciatis rem quia officiis possimus perferendis. Libero aperiam saepe impedit quidem sapiente nihil corrupti consequatur magni, earum est hic ad quas velit architecto at itaque nostrum facere fuga quaerat recusandae maiores obcaecati? Culpa quis dignissimos voluptatem sint quasi temporibus alias adipisci nobis, officia earum dolorem. Veritatis, recusandae deserunt quidem quam ullam ab obcaecati magni molestias consectetur quia non eligendi nostrum unde beatae error asperiores illum possimus eum soluta a praesentium magnam commodi dignissimos? Alias assumenda beatae ad optio? Hic debitis porro aut blanditiis nulla? Iste error vitae magni eligendi ipsum placeat consectetur rerum id deserunt accusantium eius quaerat maxime consequuntur aspernatur sequi fugit dolores quis, mollitia sapiente minus nam cumque eos. Iusto unde omnis ullam nam exercitationem esse sint pariatur accusantium, dicta molestiae vitae, repellendus a? Minima suscipit tempore ipsum quasi quis odit impedit non mollitia eveniet voluptatem soluta libero sunt explicabo, magnam maiores dolore voluptatum similique at quae aliquam rerum architecto modi! Dolores ipsam architecto culpa quo sed adipisci voluptatibus cumque illo ducimus quasi sequi temporibus maxime, aspernatur molestiae accusamus, explicabo error. Ipsa nostrum officiis iusto dignissimos laboriosam molestias autem repudiandae minima error quae excepturi, eius, voluptates, recusandae consequuntur omnis tenetur repellendus modi? Debitis ducimus aliquam iste velit repellendus cumque explicabo odit veniam nihil expedita, quibusdam voluptas commodi est corporis a asperiores magnam libero facilis adipisci iure voluptatum, sapiente ratione? Optio impedit, provident ipsam aperiam corrupti necessitatibus. Excepturi officiis optio reiciendis accusantium fugiat tempore repudiandae sequi suscipit quos ratione, molestias praesentium sapiente molestiae harum doloribus corporis porro nam! Ipsa assumenda molestias, accusantium, minima id sunt quod cumque magnam ut harum quisquam repudiandae vero praesentium explicabo voluptatibus? Et, vitae dicta. Velit sit facilis fugit rem consequatur expedita error voluptatem excepturi. Dolorum quam sint voluptate nemo officiis quae, at ut, consequatur qui voluptas temporibus dolores aliquam minima asperiores? Illo aliquam autem, quod corporis sunt quam facere temporibus est ab quos! Fugit provident doloribus asperiores inventore tempora eum consectetur incidunt est dolor laborum pariatur non ad ullam, magnam fuga? Quos dolorem, sunt perferendis dolore dicta soluta at sapiente laborum suscipit nulla totam delectus doloremque cum odit nihil autem consequatur, porro, sequi temporibus minima commodi necessitatibus et. Possimus labore dolorem nihil illum sed voluptate eaque vel blanditiis vero nostrum quibusdam porro debitis itaque tempora earum asperiores saepe reiciendis nemo alias quidem, eligendi magni? Numquam architecto pariatur incidunt. Quia dolores mollitia cupiditate est, sit eum voluptate earum, doloremque alias fugit dignissimos odio? Velit laudantium id magni vitae! Hic obcaecati quasi dolore fugit quas, ab quo incidunt earum unde iste eligendi illo possimus minus corrupti natus magni suscipit ratione repellat doloremque architecto ullam. Beatae adipisci consectetur labore quo maiores nihil, consequuntur neque soluta veniam fugit, nulla quas maxime nobis? Reprehenderit fugit quisquam, a voluptatem veritatis, et possimus, temporibus natus in voluptatum voluptate hic rem consequatur fuga velit libero alias at. Quibusdam voluptate, dolorem ad numquam sed dolore cupiditate accusantium eum, aperiam adipisci tempore error dolor molestiae, aliquam id earum debitis rerum molestias quae dignissimos delectus necessitatibus! Eius omnis, delectus totam eaque ipsa aut voluptates autem provident quibusdam ipsum fugit rem beatae esse laborum excepturi officiis nostrum, cupiditate quia? Libero obcaecati dolorum repellat quo consequatur totam tempore dolor quae, quidem ipsum sequi voluptatibus consequuntur impedit corrupti eveniet laborum quos recusandae at? Magni dolorum optio reiciendis sunt facilis ut, laborum aut error, ullam sapiente aliquid! Impedit labore perspiciatis distinctio! Quos sequi ipsa ipsam expedita, laboriosam dolores voluptas amet sunt quis eius, accusamus assumenda ab ad id esse. Mollitia, asperiores harum libero eaque consequuntur architecto atque eius corporis laudantium itaque? Sint vel ad repellat culpa officia delectus quis animi laudantium aut labore quos distinctio minus, inventore consequuntur eaque quod enim officiis itaque accusamus illum exercitationem molestiae suscipit architecto! Eos doloremque neque molestias harum error assumenda earum, ipsam optio vero consectetur repellat eum impedit quod ducimus soluta, odio voluptas eligendi ea accusantium corrupti ut fugit perferendis quidem. Magnam dolor accusantium assumenda eaque iusto laudantium inventore autem! Ad totam autem doloribus aut eveniet fuga laudantium dicta error quod sunt optio repellendus ducimus excepturi molestiae esse nobis voluptatibus perspiciatis sit, obcaecati neque, officia minima dolorum! Doloribus odit similique aspernatur nobis adipisci itaque voluptas, reiciendis cupiditate sint quaerat veniam nihil molestiae rerum, eligendi numquam porro magnam nisi quod, ab repellendus corporis dicta provident sit! Quas magnam id quisquam quam eveniet consequatur suscipit ratione voluptatibus error commodi sed magni harum ex debitis ullam dignissimos iure distinctio ipsa ea, asperiores ab nostrum aliquid sapiente! Eos, nesciunt eaque beatae temporibus commodi voluptatibus modi qui atque voluptates, at ullam fuga ex nemo tempore nulla quas molestias, possimus sit excepturi. Aspernatur deleniti doloribus ullam sunt doloremque illo temporibus nobis voluptate odio illum soluta laudantium, fuga saepe suscipit distinctio vero necessitatibus et veritatis hic asperiores recusandae rerum amet. Distinctio dolore corrupti quaerat molestias nihil expedita officia culpa odit id, quisquam aperiam natus quas architecto ullam dicta. Consectetur perferendis consequuntur tempora, nesciunt quae voluptas exercitationem vel est fugit accusamus dolores inventore dolor culpa cupiditate nisi ratione mollitia labore. Dicta amet fuga pariatur nostrum repellendus animi quidem illo sequi omnis nulla earum eveniet esse, enim velit mollitia ducimus officia corporis quaerat? Omnis illo temporibus ad mollitia cum facilis, molestias sed. Sit nisi repellendus sequi quia hic expedita, nulla magni, ducimus cupiditate velit deleniti facere alias at quaerat rerum possimus odio, corporis est! Totam, facere architecto eligendi provident, dolorum ab nesciunt officia tenetur optio praesentium nobis error quibusdam porro atque voluptatum. Cupiditate temporibus ipsum iusto libero nisi doloremque sunt molestias rerum, voluptas quos enim odio ea quisquam, quas ipsa. Atque adipisci ut, tempore voluptates, itaque exercitationem sapiente mollitia in, incidunt quis corrupti odit. Neque vel quis explicabo numquam, culpa quas aliquam nihil enim similique? Odio, distinctio! Esse illum dolorem totam. -->
+                             <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="helloWorld" role="tabpanel" aria-labelledby="helloWorld-tab">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, at explicabo rem consectetur aliquam officia mollitia voluptate quia voluptatum a incidunt illum sunt maiores, non animi similique nihil quidem eveniet!</div>
+                                <div class="tab-pane fade" id="helloworld2" role="tabpanel" aria-labelledby="helloworld2-tab">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ullam fuga asperiores illo minus fugiat reiciendis consequuntur nemo nihil! Nulla, molestiae accusamus temporibus fuga blanditiis ipsum et incidunt praesentium culpa repudiandae exercitationem natus corrupti voluptas expedita accusantium ducimus! Similique, molestiae sit dignissimos voluptates voluptatum numquam, neque odio nostrum temporibus necessitatibus totam velit eius quae deserunt dolorum doloribus culpa quos nam accusantium consectetur mollitia amet illo. Illum est tempore modi autem, ratione quos aliquid neque natus fugit quibusdam voluptatum! Rerum, repellendus quo. Sed pariatur eveniet suscipit eius dolor? Hic numquam ex, eligendi excepturi omnis, quod exercitationem repellat minima provident debitis voluptates. Molestias id adipisci inventore unde rerum! Magni unde neque consequatur assumenda molestiae ut quos, ad quis, mollitia architecto rem voluptatum eligendi tenetur fugiat quas tempore nobis. Aliquid ipsam nobis quibusdam necessitatibus doloribus voluptates ab, expedita libero nam quas. Praesentium accusamus quasi voluptates quibusdam, sed sunt quidem facilis harum cumque fugiat perferendis! Illum enim sint ipsum beatae quis quaerat hic et ipsa facere dicta cum eveniet modi aspernatur repudiandae, vel doloremque dolorum repellendus est similique, fuga magni. Possimus consequatur consectetur placeat velit iste laboriosam, obcaecati vel error suscipit minima distinctio aperiam reprehenderit harum in doloribus vitae. Quam, repellat. Similique impedit quis ex numquam? Ipsam quibusdam, assumenda labore qui repellat velit minus, quis molestiae architecto eos accusamus commodi voluptas corrupti! Provident cumque laborum suscipit delectus. Ad, recusandae sapiente distinctio ipsum et ducimus quaerat rem facere iste ex dolore quibusdam ipsam libero animi quia modi debitis dolores facilis? Nisi voluptas consectetur quasi sed.</div>
+                                <div class="tab-pane fade" id="helloworld3" role="tabpanel" aria-labelledby="helloworld3-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab pariatur eveniet quis praesentium, modi repellat et quae fuga perspiciatis eaque rerum natus! Alias ducimus omnis a voluptatem quasi sit animi vero ab distinctio, error adipisci totam quidem nostrum fuga illo? Asperiores animi itaque vero, voluptate, quos explicabo fuga aliquam distinctio, dicta dolores minima tempore! Inventore rem cupiditate aspernatur totam fugiat hic sit tenetur? Odio, necessitatibus aliquid iure alias quos velit tenetur sapiente itaque fuga optio cum atque id sint facere veritatis! Ad porro fuga architecto? Eius magnam tenetur quos, ipsa eligendi id ullam, corrupti doloribus soluta commodi repellat facilis tempore omnis, repudiandae odio natus aliquid? Maxime molestias autem, officiis, possimus hic accusantium ipsa quos saepe nesciunt voluptatum dicta amet vitae atque eveniet quidem dolor harum nobis ratione eos ullam suscipit eaque ipsum itaque distinctio. Laborum officiis repellendus maiores dolore necessitatibus fugit placeat harum voluptates molestiae, totam numquam libero delectus ipsum atque aut cum similique, in asperiores. Totam nemo voluptas vero molestiae incidunt, aliquam excepturi voluptatum necessitatibus quas distinctio temporibus assumenda sed? Cumque aut aliquam iste pariatur odio ducimus iure minima quas error itaque tempora, consequuntur voluptas, quo vel quos, minus a. Porro ad consectetur doloribus iusto. Veniam autem, cupiditate perspiciatis consequuntur architecto saepe similique qui nesciunt soluta et ab laudantium quibusdam! Totam nostrum quaerat error repudiandae harum et dolore vero. Fugit itaque ab rerum asperiores, dolore iure culpa mollitia molestias. Similique ullam est quod suscipit ut asperiores commodi ab dolorum quis rerum porro ipsum, neque minus earum modi! Dolores commodi aspernatur, tempora ducimus itaque quas consequuntur accusantium, accusamus repellat perspiciatis id voluptas culpa quis omnis, qui iusto fugit. Similique modi hic ipsam animi consequuntur consequatur? Enim ipsa beatae distinctio quis autem officia fuga? Deleniti, nam nihil. Odio labore eos, deserunt ex esse rem porro molestiae nobis cupiditate placeat id corporis voluptatibus laudantium minima explicabo ipsum ullam libero enim exercitationem vero? Nihil doloremque quas itaque maxime omnis sequi excepturi eligendi magni commodi nisi. Autem, ullam aperiam iste in laudantium delectus beatae alias facilis esse atque, dicta reiciendis corrupti recusandae voluptate et. Vero illum iste soluta eos doloribus quia labore deleniti incidunt fuga dolores magnam, sed repudiandae laboriosam rerum repellendus. Sunt ipsum quae ab blanditiis illo, obcaecati laboriosam dolor voluptatum accusantium, in ullam qui, ex consectetur doloribus fugiat. Officiis placeat molestias autem a. Nihil aliquid consequuntur voluptate ad voluptatem, nam neque totam unde sint id quidem debitis, ipsam, illum alias. Ex veritatis recusandae voluptates voluptas praesentium perferendis delectus, ipsum vitae! Odit officiis voluptatibus delectus magnam in sint est quaerat a ipsam, totam ullam nobis unde dolore ea animi minus sed, quo quos accusantium atque? Praesentium asperiores doloremque possimus illo neque dolorum modi, assumenda sapiente earum molestiae quae quasi esse molestias officiis ad saepe culpa! Reiciendis quam ipsam magnam voluptates voluptatem minus repellat expedita. Officiis velit, necessitatibus vero possimus cumque quo eveniet dolor voluptate consequatur itaque. Nostrum iste nemo enim rem, est eligendi accusamus facere temporibus voluptatibus rerum aperiam quisquam ratione similique, ex voluptatem incidunt a, voluptas labore inventore porro! Ut, repudiandae et?</div>
                               </div>
-                              <div class="modal-body">
-                                ...
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                              </div>
-                            </div>
+
+                            
                           </div>
                         </div>
-
-                        <div class="header_contentBadges mt-2">
-                            <div class="badges_group paymentMethodsBadgesGroup">
-                                <a href="#" class="badge badge_sm badgeActive">Bank Transfer</a>
-                                <a href="#" class="badge badge_sm">Paypal</a>
-                                <a href="#" class="badge badge_sm">Amazon Gift Card</a>
-                                <a href="#" class="badge badge_sm">Steam Wallet Gift Card</a>
-                            </div>
-                        </div>
-
+                        
+                        
                     </div>
                     
+                    <div class="header_contentBadges mt-2">
+                        <div class="badges_group paymentMethodsBadgesGroup">
+                            <a href="#" class="badge badge_sm badgeActive">Bank Transfer</a>
+                            <a href="#" class="badge badge_sm">Paypal</a>
+                            <a href="#" class="badge badge_sm">Amazon Gift Card</a>
+                            <a href="#" class="badge badge_sm">Steam Wallet Gift Card</a>
+                        </div>
+                    </div>
 
                     <div class="spendAmount">
                         
@@ -774,17 +822,25 @@
     </p>
 </article>
 
+
+
 <footer class="footer">
     <p>footer links!</p>
 </footer>
+
+<!---->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 <!-- bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+
 <!--semantic-ui-->
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script> -->
 <script src="semantic/dist/semantic.min.js"></script>
 <!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -819,11 +875,11 @@
             prevEl: ".swiper-button-prev",
         },
     });
-    window.addEventListener('resize', () => {
-        setTimeout(() => {
-            window.location.reload();
-        }, 1000);
-    });
+    // window.addEventListener('resize', () => {
+    //     setTimeout(() => {
+    //         window.location.reload();
+    //     }, 1000);
+    // });
 </script>
 <!--app .js-->
 <script src="app.js"></script>

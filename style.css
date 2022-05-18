@@ -24,13 +24,13 @@ h2,
 h3,
 h4,
 h5,
-h6, 
+h6,
 p,
 strong {
     color: #333!important;
 }
 body {
-    min-height: 2000px;
+    /* min-height: 2000px; */
 }
 
 .mxw-1300 {
@@ -58,7 +58,7 @@ body {
 .header_titleContainer {}
 
 .header_title {
-    color: var(--main_color);
+    color: var(--main_color)!important;
     font-size: 1.3rem;
     font-weight: bold;
 }
@@ -66,7 +66,12 @@ body {
 .header_togglerTitle {
     margin-bottom: .3rem;
 }
+@keyframes identifier {
 
+}
+@keyframes identifier {
+    
+}
 .header_staticTitle {
     color: #46127b;
 }
@@ -204,7 +209,7 @@ body {
 
 .form {
     /* border: 1px solid red; */
-    min-height: 350px;
+    /* min-height: 350px; */
     /* background-color: white; */
 }
 
@@ -474,12 +479,12 @@ body {
 
 .modal::before {
     content: ' ';
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     display: block;
     background-color: #0005;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(0px);
     transition: backdrop-filter .2s linear 0s;
     -webkit-transition: backdrop-filter .2s linear 0s;
     -moz-transition: backdrop-filter .2s linear 0s;
@@ -1095,4 +1100,129 @@ body {
     text-transform: capitalize;
     font-weight: bold;
     font-size: 2rem;
+}
+
+/*!!!!!!!!!!!!!!!!!!*/
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 0;
+    pointer-events: none;
+}
+.modal-content {
+    /* min-height: 200vh; */
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    /* padding: .5rem .5rem 0; */
+}
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+}
+@media screen and (min-width:768px) {
+    .modal-dialog {
+        max-width: 70%;
+        margin: 3rem auto 0;
+    }
+}
+.modal_header {
+    position: sticky;
+    top: 0%;
+    /* background-color: #F4FAFD; */
+    background-color: #fff;
+    padding-right: 1rem;
+    /* padding: 1rem 1rem 0; */
+
+}
+.qa-paymentMethodPickerModalSearch {
+    display: block;
+}
+.qa-paymentMethodPickerModalSearch:focus {
+    outline: none;
+}
+.modalCloseBtn {
+    width: 35px;
+    height: 35px;
+}
+.modalCloseBtn:focus {
+    box-shadow: none;
+}
+
+@media screen and (min-width:576px) {
+    .modal_header {
+        background-color: #F4FAFD;
+        padding-right: 1rem;
+        /* padding: 1rem 1rem 0; */
+    }
+}
+@media screen and (min-width:1200px) {
+    .modalCloseBtn {
+        position: absolute;
+        background-color: #0004;
+        width: 35px;
+        height: 35px;
+        top: 0;
+        left: calc(100% + 16px);
+        box-shadow: none;
+    }
+    .modalCloseBtn:hover {
+        background-color: #eee;
+    }
+    .modal-content {
+        padding: .5rem .5rem 0;
+    }
+    .modal_header {
+        /*background-color: #F4FAFD;
+        */padding-right: 2rem;
+        padding-left: 2rem;
+        /*padding: 1rem 1rem 0;
+        */box-shadow: 0 1rem 1rem 0 #0001;
+        border-radius: .5rem .5rem 0 0 ;
+        -webkit-border-radius: .5rem .5rem 0 0 ;
+        -moz-border-radius: .5rem .5rem 0 0 ;
+        -ms-border-radius: .5rem .5rem 0 0 ;
+        -o-border-radius: .5rem .5rem 0 0 ;
+}
+    .qa-paymentMethodPickerModalSearch {
+        line-height: 1;
+    }
+    .x:focus {
+        border: 1px solid red;
+    }
+}
+.paymentMethods_navPills {
+    background-color: #F4FAFD;
+}
+
+.paymentMethods_navItem {
+
+}
+
+.paymentMethods_navLink {
+    color: #000;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    font-weight: normal;
+}
+.paymentMethods_navLink:hover {
+    color: #46127b;
+}
+.paymentMethods_navLink.active {
+    color: #000!important;
+    background-color: transparent!important;
+    border-bottom: 2px solid #46127b;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
 }
