@@ -19,13 +19,20 @@ let badgeGroupElement = document.querySelector('.paymentMethodsBadgesGroup');
         e.target.classList.add('badgeActive');
         
         // set the innerHTML of .paymentMethodsModalBtn == activated badge 
-        document.querySelector('.paymentMethodsModalBtn').innerHTML = e.target.innerHTML;
+        document.querySelector('.widgetPaymentMethodSelector').innerHTML = e.target.innerHTML;
     });
 });
 
 
 
-// m d
-// m m
-// m p
-// 
+let specificPaymentBtnsList = document.querySelectorAll('.specificPaymentBtn');
+[...specificPaymentBtnsList].forEach((specificPaymentBtn) => {
+    
+    specificPaymentBtn.setAttribute('data-bs-dismiss', 'modal');
+
+    // زمانی که روی هر کارت کلیک شد متن روی کارت رو عوض کن
+    specificPaymentBtn.addEventListener('click', (e) => {
+        document.querySelector('.widgetPaymentMethodSelector').innerHTML = e.target.textContent;
+    });
+
+});
